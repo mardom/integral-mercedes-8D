@@ -1,16 +1,16 @@
-##  Code compute an 8D integral
+##  Code compute an 8D integral, please check first the Jacobian computation!
 
 - Notice that the first two integrals were computed using scipy.dblquad under standart conditions, this
-integral could be included in the same schema that follows.
+integral could be included in the same schema that the remaining 6D iintegral which was computed using Vegas in pycuba.
 
-- 6D integral were computed using Vegas in pycuba, should be compiled first, as follows:
+- Pycuba should be compiled first, as follows:
 
 -- git clone https://github.com/JohannesBuchner/cuba/
 -- cd cuba
 -- ./configure
 -- ./makesharedlib.sh
 -- if linking fails, change CFLAGS from -03 to to -02 in the makefile
--- Include the containing directory your LD_LIBRARY_PATH.
+-- Include the containing directory into your LD_LIBRARY_PATH.
 
 - For each value of M_s, the integrals were parallelized and therefore its resolution (mass_resolution)
  should match the number of available cores (max_workers=8) for best timing results. 
