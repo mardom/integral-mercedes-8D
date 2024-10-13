@@ -12,22 +12,22 @@ integral could be included in the same schema that the remaining 6D iintegral wh
 -- if linking fails, change CFLAGS from -03 to to -02 in the makefile
 -- Include the containing directory into your LD_LIBRARY_PATH.
 
-- For each value of M_s, the integrals were parallelized and therefore its resolution (mass_resolution)
+ For each value of M_s, the integrals were parallelized and therefore its resolution (mass_resolution)
  should match the number of available cores (max_workers=8) for best timing results. 
 
 # <img src="./Int-Plummer-8to13.png">
 
-- Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Plummer profile.
+ Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Plummer profile.
 
 # <img src="./Int-Plummer-11to12.4.png">
 
-- Run in 3hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and NFWexpo profile.
+ Run in 3hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and NFWexpo profile.
 
 # <img src="./">
 
-- Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Hernquist profile.
+ Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Hernquist profile.
 
 # <img src="./">
 
-- Any change in these paramaters could impact severely on the performance. See results in the plots 
+ Any change in these paramaters could impact severely on the performance. See results in the plots 
 
