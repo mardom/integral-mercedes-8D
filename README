@@ -19,7 +19,7 @@ integral could be included in the same schema that the remaining 6D iintegral wh
 
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Plummer profile.
 
-![]("./Int-Plummer-11to12.4.png)
+![]("./Int-Plummer-11to12.4.png")
 
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and NFWexpo profile.
 
