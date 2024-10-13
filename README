@@ -14,9 +14,9 @@ integral could be included in the same schema that the remaining 6D iintegral wh
 
  For each value of M_s, the integrals were parallelized and therefore its resolution (mass_resolution)
  should match the number of available cores (max_workers=8) for best timing results. 
-
+<div align="center">
 ![](./Int-Plummer-8to13.png)
-
+</div>
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Plummer profile.
 
 ![]("./Int-Plummer-11to12.4.png")
