@@ -15,19 +15,19 @@ integral could be included in the same schema that the remaining 6D iintegral wh
  For each value of M_s, the integrals were parallelized and therefore its resolution (mass_resolution)
  should match the number of available cores (max_workers=8) for best timing results. 
 
-<img src="./Int-Plummer-8to13.png">
+![](./Int-Plummer-8to13.png)
 
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Plummer profile.
 
-#<img src="./Int-Plummer-11to12.4.png">
+![]("./Int-Plummer-11to12.4.png)
 
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and NFWexpo profile.
 
-<img src="./int-NFWexpo-11to12.4.png">
+![](./int-NFWexpo-11to12.4.png)
 
  Run in 2hs for mass_resolution=6, using 8cores of an i9 at 5GHz, for epsrel=1e-2, epsabs=1e-8, maxeval=100000 and Hernquist profile.
 
-<img src="./int-Hernquist-11to12.4.png">
+![](./int-Hernquist-11to12.4.png)
 
  Any change in these paramaters could impact severely on the performance. See results in the plots 
 
